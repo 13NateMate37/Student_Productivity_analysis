@@ -5,17 +5,17 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 ## Dataset Content
-* This dataset is a synthetic example, based upon real dataset patterns of an array of students and curated aspects that affect producitivity.
+This dataset is a synthetic example, based upon real dataset patterns of an array of students and curated aspects that affect producitivity.
 
-These aspects include:
+* These aspects include:
 
-Hours of sleep per night. 
-Total screen time in hours.
-Total social media consumption in hours.
-Part-time employment. 
-How much physical activity in hours the student engages in.
-Prrior Grade Point Averages.
-A total Productivity Score and Performance categorisation.
+* Hours of sleep per night. 
+* Total screen time in hours.
+* Total social media consumption in hours.
+* Part-time employment. 
+* How much physical activity in hours the student engages in.
+* Prrior Grade Point Averages.
+* A total Productivity Score and Performance categorisation.
 
 
 ## Business Requirements
@@ -28,7 +28,7 @@ A total Productivity Score and Performance categorisation.
 
 
 
-## Hypotheses and how to validate?
+## Hypotheses and how to validate?  (note to me copilot reformated what I had type to solve format inconsistencies and advise how i would actually demonstrate)
 
 ### Hypothesis 1: Gender and Academic Performance
 - **Prediction**: Female students will achieve higher productivity scores and performance ratings than male students.
@@ -54,9 +54,10 @@ A total Productivity Score and Performance categorisation.
 
 ## Project Plan
 
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* Sourced the raw dataset from Kaggle. The source page seems to have disappered preventing further credit to the uplaoder.
+
+* Checked the structure and data types via exploritory checks. 
+ ** I.e .describe(), .info() and .nunique()
 
 ## The rationale to map the business requirements to the Data Visualisations
 
