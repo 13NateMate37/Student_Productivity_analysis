@@ -1,4 +1,4 @@
-Transformation Stage Plan for the Student Productivity Dataset
+Transformation Stage Plan for the Student Productivity Dataset produced via copilot
 ============================================================
 
 As a beginner data analyst, I would keep the Transformation stage simple and focus on the columns needed for the hypotheses.

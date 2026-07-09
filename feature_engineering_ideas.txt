@@ -1,0 +1,64 @@
+Feature Engineering Ideas for the Student Productivity Dataset
+=============================================================
+
+As a beginner data analyst, I would keep feature engineering simple and only create features that directly support the hypotheses.
+
+Features I would encode
+-----------------------
+
+1. Gender
+- Useful for Hypothesis 1.
+- I would encode it as a binary feature:
+  - Male = 0
+  - Female = 1
+
+2. Sleep category
+- Useful for testing whether students with a healthy sleep range perform better.
+- Example categories:
+  - Low sleep
+  - Healthy sleep
+  - High sleep
+
+3. Screen time category
+- Useful for testing the effect of high screen time on productivity.
+- Example categories:
+  - Low
+  - Medium
+  - High
+
+4. Social media usage category
+- Useful for testing whether heavy social media use lowers performance.
+- Example categories:
+  - Low
+  - Medium
+  - High
+
+5. Physical activity category
+- Useful for testing whether regular exercise is linked to better productivity.
+- Example categories:
+  - Low
+  - Moderate
+  - High
+
+6. Part-time work indicator
+- Useful for testing whether working part-time affects productivity.
+- Example:
+  - No = 0
+  - Yes = 1
+
+7. Performance label
+- If the performance column is categorical, I would encode it so it can be used in analysis.
+- Example:
+  - Low = 0
+  - Medium = 1
+  - High = 2
+
+Why this is appropriate
+-----------------------
+- These features are directly linked to the hypotheses.
+- They are easy to understand.
+- They are simple to visualise and analyse.
+
+For a beginner project, I would mostly create:
+- binary features such as gender and part-time work
+- categorical groupings for sleep, screen time, social media, and exercise
