@@ -5,16 +5,52 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 ## Dataset Content
+* This dataset is a synthetic example, based upon real dataset patterns of an array of students and curated aspects that affect producitivity.
 
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's 100GB limit.
+These aspects include:
+
+Hours of sleep per night. 
+Total screen time in hours.
+Total social media consumption in hours.
+Part-time employment. 
+How much physical activity in hours the student engages in.
+Prrior Grade Point Averages.
+A total Productivity Score and Performance categorisation.
+
 
 ## Business Requirements
 
-* Describe your business requirements
+* To investigate and identify which lifetstyle factors have a strong positive effect on student productivity and performance.
 
-## Hypothesis and how to validate?
+* To compare performance patterns across demographic groups in a respectful, evidence-based way, while avoiding unsupported assumptions.
 
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* Identify students who may be at risk of lower performamce based upon their habits and lifestyle.
+
+
+
+## Hypotheses and how to validate?
+
+### Hypothesis 1: Gender and Academic Performance
+- **Prediction**: Female students will achieve higher productivity scores and performance ratings than male students.
+- **Validation method**: Compare average productivity scores and performance distribution across gender groups using descriptive statistics.
+- **Expected output**: Bar chart or box plot comparing productivity by gender; mean and median values for each group.
+
+### Hypothesis 2: Sleep Duration Impact
+- **Prediction**: Students sleeping 6-7 hours per night will have higher productivity scores and better performance ratings compared to those sleeping significantly more or less.
+- **Validation method**: Group students by sleep duration ranges (e.g., <6 hours, 6-7 hours, 7-8 hours, >8 hours) and compare average productivity scores.
+- **Expected output**: Bar chart showing productivity by sleep range; correlation coefficient between sleep hours and productivity score.
+
+### Hypothesis 3: Screen Time and Social Media Impact
+- **Prediction**: Higher total screen time and social media consumption will negatively affect student productivity scores and performance ratings.
+- **Validation method**: Calculate correlation between screen time/social media usage and productivity score; compare performance across low/medium/high usage groups.
+- **Expected output**: Scatter plots showing relationships between screen time and productivity; correlation coefficients for both metrics.
+
+### Hypothesis 4: Physical Activity Benefit
+- **Prediction**: Students who engage in regular physical activity will demonstrate higher productivity scores and better performance ratings than those with minimal or no physical activity.
+- **Validation method**: Compare average productivity scores across physical activity levels; examine correlation between exercise hours and performance.
+- **Expected output**: Bar chart or scatter plot showing productivity by activity level; correlation analysis results.  
+
+
 
 ## Project Plan
 
