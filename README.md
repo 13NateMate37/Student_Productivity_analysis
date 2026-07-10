@@ -36,8 +36,8 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 - **Expected output**: Bar chart or box plot comparing productivity by gender; mean and median values for each group.
 
 ### Hypothesis 2: Sleep Duration Impact
-- **Prediction**: Students sleeping 6-7 hours per night will have higher productivity scores and better performance ratings compared to those sleeping significantly more or less.
-- **Validation method**: Group students by sleep duration ranges (e.g., <6 hours, 6-7 hours, 7-8 hours, >8 hours) and compare average productivity scores.
+- **Prediction**: Students sleeping 7-9 hours per night will have higher productivity scores and better performance ratings compared to those sleeping significantly more or less.
+- **Validation method**: Group students by sleep duration ranges (e.g., <7 hours, 7-9 hours, >9 hours) and compare average productivity scores.
 - **Expected output**: Bar chart showing productivity by sleep range; correlation coefficient between sleep hours and productivity score.
 
 ### Hypothesis 3: Screen Time and Social Media Impact
@@ -52,12 +52,15 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 
 
 
+
 ## Project Plan
 
 * Sourced the raw dataset from Kaggle. The source page seems to have disappered preventing further credit to the uplaoder.
 
 * Checked the structure and data types via exploritory checks. 
  ** I.e .describe(), .info() and .nunique()
+
+* Create a copy of the raw dataset to be cleaned in the Transformation stage and exported as a cleaned dataset 
 
 ## The rationale to map the business requirements to the Data Visualisations
 
