@@ -27,7 +27,6 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 * Identify students who may be at risk of lower performamce based upon their habits and lifestyle.
 
 
-
 ## Hypotheses and how to validate?  (note to me copilot reformated what I had type to solve format inconsistencies and advise how i would actually demonstrate)
 
 ### Hypothesis 1: Gender and Academic Performance
@@ -49,8 +48,6 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 - **Prediction**: Students who engage in regular physical activity will demonstrate higher productivity scores and better performance ratings than those with minimal or no physical activity.
 - **Validation method**: Compare average productivity scores across physical activity levels; examine correlation between exercise hours and performance.
 - **Expected output**: Bar chart or scatter plot showing productivity by activity level; correlation analysis results.  
-
-
 
 
 ## Project Plan
@@ -85,6 +82,7 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 * Did you recognise gaps in your knowledge, and how did you address them?
 * If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
+
 ## Development Roadmap
 
 * What challenges did you face, and what strategies were used to overcome these challenges?
@@ -95,18 +93,18 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 
 * Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 
+
 ## Credits
 
 * In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials; however, it is important to be very specific about these sources to avoid plagiarism. 
 * You can break the credits section into Content and Media, depending on what you include in your project. 
+
 
 ### Content 
 
 - The text for the Home page was taken from the Wikipedia Article A
 - Instructions on how to implement form validation were taken from a [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-
 
 
 ## Acknowledgements (optional)
