@@ -62,9 +62,8 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 
 * Create a copy of the raw dataset to be cleaned in the Transformation stage and exported as a cleaned dataset 
 
-## The rationale to map the business requirements to the Data Visualisations
+* Visualise the cleaned dataset to assess the Hypotheses
 
-* List your business requirements and a rationale for mapping them to the Data Visualisations
 
 ## Analysis techniques used
 
