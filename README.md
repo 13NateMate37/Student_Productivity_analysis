@@ -26,8 +26,19 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 
 * Identify students who may be at risk of lower performamce based upon their habits and lifestyle.
 
+## Broader Applications of Data Analytics in Education
 
-## Hypotheses and how to validate?  (note to me copilot reformated what I had type to solve format inconsistencies and advise how i would actually demonstrate)
+Data analytics can be applied across education to support both students and educators. Examples include identifying students who may require additional support, monitoring academic performance and attendance, evaluating teaching methods, and identifying patterns in student engagement.
+
+Analytics can also support planning and decision-making by helping educational institutions understand student outcomes, allocate resources and develop more targeted learning support.
+
+## Potential AI Solution
+
+A potential AI solution would be an early-warning system for identifying students at risk of lower performance. A machine-learning model could analyse factors such as previous grades, sleep, screen time and physical activity to identify patterns associated with lower performance.
+
+Students identified as potentially at risk could then be highlighted for further review and additional support. The model should support, rather than replace, educator judgement, as predictions may contain errors or bias.
+
+## Hypotheses and how to validate? 
 
 ### Hypothesis 1: Gender and Academic Performance
 - **Prediction**: Female students will achieve higher productivity scores and performance ratings than male students.
@@ -52,61 +63,58 @@ This dataset is a synthetic example, based upon real dataset patterns of an arra
 
 ## Project Plan
 
-* Sourced the raw dataset from Kaggle. The source page seems to have disappered preventing further credit to the uplaoder.
+As my first data analytics project, I followed a structured approach to move from the original dataset towards answering the defined business requirements.
 
-* Checked the structure and data types via exploritory checks. 
- ** I.e .describe(), .info() and .nunique()
+1. Ideation and Planning - Generative AI, including ChatGPT, was used during the early ideation stage to explore potential business requirements, hypotheses and approaches to analysing the student productivity dataset. The suggestions were reviewed and used to help shape the final project direction.
 
-* Create a copy of the raw dataset to be cleaned in the Transformation stage and exported as a cleaned dataset 
+2. Data Collection - Source the student productivity dataset and review the available variables to understand what could be investigated.
 
-* Visualise the cleaned dataset to assess the Hypotheses
+3. Data Exploration - Inspect the dataset using methods such as ".info()", ".describe()" and ".nunique()" to understand its structure, data types, distributions and identify potential data-quality issues.
 
+4. Data Cleaning and Transformation - Create a copy of the raw data for cleaning and transformation while preserving the original dataset. The cleaned dataset was then exported for use during analysis.
+
+5. Data Analysis and Visualisation - Use descriptive statistics and appropriate visualisations to explore patterns and relationships within the student data and investigate the project's hypotheses.
+
+6. Interpretation - Review the visual and numerical results to determine what they suggest about student productivity and performance, while avoiding unsupported assumptions or claims of causation.
+
+7. Communication - Present the findings through clear visualisations and supporting narrative, linking the results back to the original business requirements.
+
+This process helped me understand how the stages of a data analytics project connect, from initial ideation and preparing raw data through to analysing and communicating meaningful findings.
 
 ## Analysis techniques used
 
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques? Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+The project followed an ETL, exploratory analysis and visualisation approach. The dataset was first inspected using methods such as ".info()", ".describe()" and ".nunique()" to understand its structure, data types and distributions before cleaning and transformation.
 
-## Ethical considerations (optional)
+Descriptive statistics and data visualisations were then used to investigate the business requirements and hypotheses. Bar charts and box plots were used to compare groups, while scatter plots and correlation analysis were used to explore relationships between numerical variables. These methods were chosen because they provided a clear way to identify patterns in student productivity and performance.
 
-* Feel free to delete this section if this is a data visualisation only (unit 1 or 2) project submission.
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+The analysis was limited by the synthetic nature of the dataset. Although the data reflects realistic student patterns, the findings should not be assumed to represent a real student population. The analysis also identifies associations rather than causation, meaning that a relationship between a lifestyle factor and productivity does not prove that one directly causes the other.
 
-
-## Unfixed Bugs
-
-* Please list any unfixed bugs and explain why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
-
+Generative AI tools, including ChatGPT and GitHub Copilot, were used to support project ideation, troubleshooting, code optimisation and data storytelling. AI-assisted outputs were reviewed against the project's data and analysis before being included.
 
 ## Development Roadmap
 
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+Development Roadmap
 
+As this was my first data analytics project, many of the tools and techniques used were new to me. Key challenges included learning how to clean and explore a dataset, selecting suitable visualisations, interpreting the results correctly, and understanding how each stage of the analysis connected to the business requirements.
+
+These challenges were addressed through experimentation, course material, documentation and AI-assisted troubleshooting. Completing the project gave me a stronger understanding of the overall data analysis process and highlighted areas for further development.
+
+Going forward, I would like to build my knowledge of statistical analysis, machine learning and interactive dashboards, while continuing to improve my confidence in interpreting and communicating data-driven findings.
 
 ## Main Data Analysis Libraries
 
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+Main Data Analysis Libraries
 
+This project provided my first practical experience of using Python libraries for data analysis and visualisation.
+
+- Pandas - Used to load, inspect, clean and transform the dataset, as well as produce descriptive statistics and prepare data for analysis.
+- Matplotlib - Used to create and customise visualisations to explore patterns within the student data.
+- Seaborn - Used to create statistical visualisations, including box plots and scatter plots, making relationships and differences between groups easier to explore.
+
+Using these libraries throughout the project helped develop my understanding of how Python can be used to move from raw data through to analysis and visual communication.
 
 ## Credits
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials; however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section into Content and Media, depending on what you include in your project. 
+Generative AI
 
-
-### Content 
-
-- The text for the Home page was taken from the Wikipedia Article A
-- Instructions on how to implement form validation were taken from a [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-
-## Acknowledgements (optional)
-
-* Thank the people who supported this project.
+ChatGPT (OpenAI) and VSCodes nuilt in Copilot were used to assist with project ideation, troubleshooting and code optimisation, and to develop narrative storytelling commentary from the project's data visualisations. All AI-assisted content was reviewed against the analysis before being included in the project.
